@@ -1,11 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import NavBar from '../components/navbar/NavBar'
+import Container from '../components/Container'
 
 export default function Home() {
   return (
-    <NavBar>
-
-    </NavBar>
+    <Container />
   )
 }
