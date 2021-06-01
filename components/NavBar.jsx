@@ -2,8 +2,8 @@ import React from "react";
 
 export default function NavBar() {
   return (
-    <div className="bg-white flex justify-center sticky z-20 top-0">
-      <div className="py-8 w-full">
+    <div className="bg-white flex justify-center sticky z-20 top-0 p-6 lg:px-8 xl:px-16 shadow-md w-full">
+      <div className="w-full">
         <div className="flex justify-between items-center">
           <div>Tan Vu</div>
           <nav className="flex space-x-4">

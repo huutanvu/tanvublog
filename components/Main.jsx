@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Main() {
   return (
-    <div>
+    <div className="mx-16">
       <main className="space-y-8">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam

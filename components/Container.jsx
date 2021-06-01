@@ -5,11 +5,13 @@ import Main from "./Main";
 
 export default function Container() {
   return (
-    <div className="flex justify-center">
-      <div className="flex flex-col max-w-4xl w-screen p-16 pt-8">
+    <div className="flex justify-center bg-gray-50">
+      <div className="flex flex-col w-screen items-center">
         <NavBar />
-        <Header />
-        <Main />
+        <div className="max-w-4xl w-screen justify-center items-center">
+          <Header />
+          <Main />
+        </div>
       </div>
     </div>
   );
